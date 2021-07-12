@@ -12,7 +12,5 @@ RUN mkdir /app
 ADD . /app
 #工作路径
 WORKDIR /app
-# 创建项目的可执行文件web-server
-RUN go build -o web-server *.go
 # 执行web-server
 CMD ["/app/web-server"]
