@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: helloworld
-          image: go-web-server
+          image: go-web-server:latest
           ports:
             - containerPort: 8082
