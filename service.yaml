@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: helloworld-svc-jenkins
-  namespace: taojianglong
+  
   labels:
     app: helloworld-jenkins
 spec:
